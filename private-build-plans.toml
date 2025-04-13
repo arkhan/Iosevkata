@@ -12,7 +12,7 @@
 
 [buildPlans.Iosevkata]
 family = "Iosevkata"
-spacing = "fixed"
+spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
