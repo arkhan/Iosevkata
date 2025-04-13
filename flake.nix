@@ -16,7 +16,7 @@
     let
       # Dependencies, Iosevka and NerdFonts
       iosevkaVersion = "33.2.1";
-      hash = "sha256-wcPWlkagVREYUI/ub7eA5rIfFmFm9vgXETW54D+SGzA=";
+      hash = "sha256-3veB083ZJUfQy7xqnQDnooV2comlQI3ZKNZkJiowpJg=";
       npmDepsHash = "sha256-la57MOeG6f0ArnUwTOCseevZDR+Qg7kbxNT3cIAr/xE=";
       fontPatcherVersion = "3.3.0";
       fontPatcherHash = "sha256-/LbO8+ZPLFIUjtZHeyh6bQuplqRfR6SZRu9qPfVZ0Mw=";
