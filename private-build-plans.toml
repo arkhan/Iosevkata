@@ -14,8 +14,8 @@
 family = "Iosevkata"
 spacing = "normal"
 serifs = "sans"
-noCvSs = true
-exportGlyphNames = false
+noCvSs = false
+exportGlyphNames = true
 
 [buildPlans.Iosevkata.variants]
 inherits = "ss08"
