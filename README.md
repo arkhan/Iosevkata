@@ -5,7 +5,7 @@ A `PragmataPro` (ss08) styled `Iosevka` variant with my tweaks.
 [![Garnix Build](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fgarnix.io%2Fapi%2Fbadges%2Fningw42%2FIosevkata%3Fbranch%3Dmaster)](https://garnix.io/repo/ningw42/Iosevkata)
 ![GitHub Release](https://github.com/ningw42/Iosevkata/actions/workflows/build_and_release.yml/badge.svg)
 
-![Preview](preview.png)
+![Preview](previews/rust.png)
 
 ## Usage
 
@@ -41,9 +41,9 @@ This repository produces two types of artifact:
 - [x] Larger period size in punctuation.
 - [x] Build and release with GitHub Actions.
 - [x] Switch to [calendar versioning](https://calver.org/) to decouple from Iosevka's semantic versioning.
+- [x] Patch Nerd Fonts glyphs at the horizontal center of two cells, instead of the right aligned default. See [ryanoasis/nerd-fonts#1330](https://github.com/ryanoasis/nerd-fonts/issues/1330#issuecomment-1664025541).
 - [ ] Add `zstd` compressed artifacts.
 - [ ] Generate preview automatically in GitHub Actions with colorscheme applied.
-- [ ] Put the glyphs from Nerd Fonts at the horizontal center of the cell/grid. See [ryanoasis/nerd-fonts#1644](https://github.com/ryanoasis/nerd-fonts/discussions/1644#discussioncomment-9600894).
 
 ## Build
 
@@ -83,6 +83,7 @@ Iosevkata has decoupled its version for calendar versioning from Iosevka's seman
 
 | Iosevkata | Iosevka | nerd-fonts |
 | :-------- | :------ | :--------- |
+| v25.04.1  | v33.2.2 | v3.4.0     |
 | v25.04.0  | v33.2.1 | v3.3.0     |
 | v25.03.2  | v33.2.0 | v3.3.0     |
 | v25.03.1  | v33.1.0 | v3.3.0     |
