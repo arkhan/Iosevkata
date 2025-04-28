@@ -15,21 +15,12 @@
     }:
     let
       # Metadata: version, dependency versions and hashes
-<<<<<<< HEAD
-      version = "25.04.0";
-      iosevkaVersion = "33.2.1";
-      hash = "sha256-3veB083ZJUfQy7xqnQDnooV2comlQI3ZKNZkJiowpJg=";
-      npmDepsHash = "sha256-la57MOeG6f0ArnUwTOCseevZDR+Qg7kbxNT3cIAr/xE=";
-      fontPatcherVersion = "3.3.0";
-      fontPatcherHash = "sha256-/LbO8+ZPLFIUjtZHeyh6bQuplqRfR6SZRu9qPfVZ0Mw=";
-=======
       version = "25.04.1";
       iosevkaVersion = "33.2.2";
       hash = "sha256-dhMTcceHru/uLHRY4eWzFV+73ckCBBnDlizP3iY5w5w=";
       npmDepsHash = "sha256-5DcMV9N16pyQxRaK6RCoeghZqAvM5EY1jftceT/bP+o=";
       fontPatcherVersion = "3.4.0";
       fontPatcherHash = "sha256-JR4sxV2yOXtrnIjFBh4as304BjNIcKkBzxOKLxrjo2I=";
->>>>>>> upstream/master
 
       # Build plans
       privateBuildPlan = builtins.readFile ./private-build-plans.toml;
